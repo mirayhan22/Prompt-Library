@@ -14,14 +14,13 @@ CUSTOMER ISSUE
 P01 Complaint Intake & Risk Triage
     |
     +-- missing information --> P02 Missing-Information Request --+
-    |                                                            |
-    +<-----------------------------------------------------------+
+                                                                |
+        P03 Case Preparation Summary     <------------------------+
+    
+RESOLUTION
     |
     v
-P03 Case Preparation Summary
-    |
-    v
-P04 Policy-Grounded Resolution Summary
+P04 Policy-Grounded Summary
     |
     +-- routine/authorised decision --> P05 Customer Response Draft
     |
@@ -33,7 +32,7 @@ STORE OPERATIONS
     |
     +-- shift end -> P08 Shift Handover --------> Incoming manager
 
-VALIDATED / CLOSED CASES
+MANAGEMENT INSIGHTS
     |
     v
 P09 Weekly Complaint Theme Analysis
